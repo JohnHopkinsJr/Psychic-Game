@@ -1,2 +1,3 @@
 # Psychic-Game
-Homework Assignment 3 w/Javascript
+John Hopkins Homework Assignment 3 w/Javascript
+GEGT Coding BootCamp 2018
