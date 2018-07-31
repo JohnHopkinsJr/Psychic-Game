@@ -42,7 +42,6 @@ span {
   color: white;
 }
 
-<<<<<<< HEAD
 #playGame {
   padding: 7px 25px;
   font-size: 1.5rem;
@@ -57,5 +56,9 @@ span {
   margin: 20px;
   padding: 1px 1px 1px;
   font-size: 60px;
-||||||| merged common ancestors
-p {
+}
+
+#Title {
+  color: blue;
+  font-size: 1.5rem;
+}
