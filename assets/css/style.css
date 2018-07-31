@@ -1,7 +1,8 @@
-  /* Visual */
+/* Visual */
 body {
   text-align: left;
-  background: url("../assets/images/psychic.jpeg");
+  background: url(../images/psychic.jpeg);
+  background-size: 100%;
 }
 
 /*general*/
@@ -10,7 +11,7 @@ h1 {
   padding-left:0px;
   font-size: 70px;
   line-height: 49px;
-  color: #2f306a;
+  color: rgb(245, 189, 4);
   align-content: left;
 }
 
@@ -21,33 +22,43 @@ h2 {
   line-height: 49px;
   color: #f70707;
   align-content: center;
+  font-style: italic;
 }
 
 /*Main*/
 .container {
   clear: both;
   margin: 0 auto;
-  width: 100%;
-  max-width: 960px;
-  padding:40px;
+  width: 50%;
+  max-width: 1080px;
+  padding: 60px;
   float: left;
-  color: black;
-  opacity: 80%;
 }
 
 span {
   font-size: 1.5rem;
   margin: 0 5px;
   padding: 5px;
+  color: white;
 }
 
-p {
-  font-style: italic;
-}
-
-button#start {
-  padding: 4px 30px;
-  margin-top: 40px;
+#playGame {
+  padding: 7px 25px;
   font-size: 1.5rem;
-  background: rgb(245, 189, 4);
+  background-color: rgb(18, 1, 253);
+  border-color: rgba(245, 248, 248, 0.925);
+  border-width: 2px;
+  border-radius: 5px;
+  color: whitesmoke;
+}
+
+.buttonStart {
+  margin: 20px;
+  padding: 1px 1px 1px;
+  font-size: 60px;
+}
+
+#Title {
+  color: blue;
+  font-size: 1.5rem;
 }
